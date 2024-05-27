@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jura:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Single+Day&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(125, 189, 31);
+    display: flex;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(125, 189, 31);
+    /* display: flex; */
+    text-align: center;
+    padding: 1px;
+}
+h1{
+    color: white;
+    font-weight: 800;
+    margin: 0;
+    padding: 25px 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 680px; /*3 items - 680px*/
+}
+
+li{
+    height: 25px;
+    justify-content: flex-end;
+    padding: 20px 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.menu_link{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+#main{
+    height: 800px;
+    margin: 0;
+    background-color: whitesmoke;
+}
+#main_bg{
+    height: 800px;
+    width: 100%;
+    background-color: whitesmoke;
+    background-image: url("forest2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+}    
+
+#main_text{
+    width: 500px;
+    color: white;
+    position: relative;
+    bottom: 550px;
+    left: 50px;
+}
+
+#big_headliner{
+    font-size: 60px;
+    padding: 5px;
+}
+
+#small_headliner{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    left: 5px;
+}
+
+#animated_earth{
+    height: 450px;
+    position: relative;
+    bottom: 1000px;
+    left: 900px;
+    animation: earth_spinning 90s infinite;
+}
+
+#earth-icon{
+    height: 80px;
+    padding: 8px 8px;
+}
+
+#choosing_menu{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.card_holder{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    border: 4px rgb(221, 217, 217) solid;
+    border-radius: 3px;
+    box-shadow: 6px 6px 2px gray;
+    transition: 1.5s;
+}
+
+.card_icons{
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+#water_drop{
+    height: 100px;
+    margin-top: 20px;
+}
+
+.card_headliner{
+    position: relative;
+    bottom: 50px;
+}
+
+#card_headliner{
+    position: relative;
+    bottom: 20px;
+}
+
+.card_paragraps{
+    text-align: left;
+    margin: 10px;
+    position: relative;
+    bottom: 50px;
+}
+
+#card_paragraps{
+    text-align: left;
+    margin: 15px;
+    position: relative;
+    bottom: 20px;
+}
+
+.card_link{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: 0.5s;
+}
+
+#card_link1{
+    bottom: 29px;
+}
+
+#card_link3{
+    bottom: 8px;
+}
+
+#main_article{
+    height: 670px;
+}
+
+.article_big_headliner{
+    text-align: center;
+}
+
+.soil_big_headliner{
+    position: relative;
+    top: 100px;
+    color: black;
+    text-align: center;
+}
+
+#FAQ_article{
+    width: 700px;
+    margin: 30px 30px;
+}
+
+.p_link{
+    color: rgb(240, 70, 70);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#soil_main{
+    height: 2800px;
+    width: 100%;
+}
+
+#first_section{
+    position: relative;
+    top: 85px;
+    margin: 15px;
+    width: 750px;
+    height: 680px;
+}
+
+#second_section{
+    height: 800px;
+}
+
+.third_section{
+    display: flex;
+    gap: 150px;
+}
+
+.video_section{
+    text-align: center;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.first_section_text_left{
+    text-align: left;
+    margin: 15px;
+}
+
+.first_section_text_right{
+    position: relative;
+    left: 750px;
+    text-align: right;
+    width: 800px;
+}
+
+.text_3rd{
+    width: 750px;
+}
+
+#sp_img1{
+    height: 550px;
+    width: 550px;
+    position: relative;
+    bottom: 530px;
+    left: 925px;
+}
+
+#sp_img2{
+    height: 600px;
+    position: relative;
+    bottom: 665px;
+    left: 30px;
+}
+
+.wp_img1{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    top: 65px;
+    right: 20px;
+}
+
+#soil_footer{
+    position: relative;
+    top: 50px;
+}
+
+#water_main{
+    height: 1990px;
+}
+
+#first{
+    position: relative;
+    top: 100px;
+    height: 580px;
+}
+
+#second{
+    height: 520px;
+}
+
+#wp_img2{
+    position: relative;
+    bottom: 425px;
+    left: 30px;
+    height: 400px;
+    width: 650px;
+}
+
+#ap_img1{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    top: 50px;
+}
+
+#ap_img2{
+    height: 400px;
+    width: 650px;
+    position: relative;
+    right: 880px;
+    top: 30px;
+}
+
+
+.card:hover{
+    box-shadow: none;
+}
+
+.card_link:hover{
+    color: rgb(240, 70, 70);
+}
+
+.p_link:hover, .menu_link:hover{
+    color: rgb(109, 44, 212);
+}
+
+@keyframes earth_spinning {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
